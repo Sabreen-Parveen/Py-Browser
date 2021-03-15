@@ -7,6 +7,9 @@ Py-Browser is a light web browser whose entire code is written in Python. The co
 #### Clone this repo: 
 `$ git clone https://github.com/Sabreen-Parveen/Py-Browser.git`
 
+#### Go to project's directory:
+`$ cd Py-Browser`
+
 #### Create a virtual environment:
 `$ virtualenv <virtualenvironment name>`
 
