@@ -9,6 +9,7 @@ Py-Browser is a light web browser whose entire code is written in Python. The co
 
 #### Create a virtual environment:
 `$ virtualenv <virtualenvironment name>`
+
 `$ source <virtualenvironment name>/bin/activate`
 
 #### Install the requirements file:
@@ -20,7 +21,7 @@ Py-Browser is a light web browser whose entire code is written in Python. The co
 
 ## Milestones to be achieved:
 1. Create an address bar.
-2. Change the name of the browser to Py-Browser
+2. Change the name of the browser to Py-Browser.
 
 ## Checkpoints:
 1. Learn how to use git and do a basic PR.
