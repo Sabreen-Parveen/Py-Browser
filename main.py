@@ -15,9 +15,14 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(self.browser)
 
+
         self.show()
 
 app = QApplication(sys.argv)
+
+# Setting Application Name
+app.setApplicationName("Py-Browser")
+
 window = MainWindow()
 
 app.exec_()
