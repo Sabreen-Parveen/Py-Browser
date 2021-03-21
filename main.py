@@ -2,11 +2,12 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtWebEngineWidgets import *
+import NavBar
 
 import sys
 
 class MainWindow(QMainWindow):
-
+    
     def __init__(self, *args, **kwargs):
         super(MainWindow,self).__init__(*args, **kwargs)
 
@@ -15,8 +16,11 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(self.browser)
 
+        # Adding Navigation Bar
+        NavBar.add_navBar(self)
 
-        self.show()
+        # Open the window in full screen mode
+        self.showMaximized()
 
 app = QApplication(sys.argv)
 
